@@ -45,6 +45,14 @@ public class add {
                     validChoice = false;
                 }
                 break;
+            case 5: // Modulus
+                    result = num1 % num2;
+                    System.out.println(num1 + " % " + num2 + " = " + result);
+                break;
+            case 6: // Exponentiation
+                    result = Math.pow(num1, num2);
+                    System.out.println(num1 + " ^ " + num2 + " = " + result);
+                break;
             default:
                 System.out.println("Invalid choice! Please select a valid operation");
                  validChoice = false;

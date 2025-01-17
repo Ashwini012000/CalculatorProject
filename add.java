@@ -19,7 +19,7 @@ public class add {
         System.out.println("5. Modulus (/)");
         System.out.println("6.  Exponentiation (/)");
 
-        System.out.print("Enter your choice (1-4): ");
+        System.out.print("Enter your choice (1-6): ");
         int choice = scanner.nextInt();
 
         double result = 0;
